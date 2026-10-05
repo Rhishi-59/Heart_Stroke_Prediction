@@ -118,6 +118,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+enter an email when prompted
 
 ---
 

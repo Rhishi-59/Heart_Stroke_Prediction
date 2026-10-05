@@ -77,14 +77,7 @@ Heart_Stroke_Prediction/
 ├── models/
 │   └── stroke_model.pkl                      # Serialized trained model
 │
-├── src/
-│   ├── preprocess.py                         # Data cleaning & transformers
-│   ├── train.py                              # Model training script
-│   └── predict.py                            # Inference script
-│
 ├── requirements.txt                          # Project dependencies
-├── LICENSE                                   # License file
-└── README.md                                 # Project documentation
 ```
 
 ---
@@ -120,16 +113,10 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 4. Run the Analysis / Train the Model
+### 4. Run the Analysis 
 
-To launch the Jupyter Notebook:
 ```bash
-jupyter notebook
-```
-
-Or execute the training pipeline directly:
-```bash
-python src/train.py
+streamlit run app.py
 ```
 
 ---
